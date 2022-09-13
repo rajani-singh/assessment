@@ -1,0 +1,29 @@
+.searchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.searchBoxInput {
+  width: 20%;
+  height: 30px;
+  border-radius: 4px;
+}
+
+.ImageContainer {
+  display: flex;
+  justify-content: center;
+
+  .displayImage {
+    margin-top: 20px;
+    margin-right: 30px;
+
+    .image{
+        width: 200px;
+        height: 200px;
+      }
+  }
+
+  
+}

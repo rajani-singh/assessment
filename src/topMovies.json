@@ -1,0 +1,128 @@
+{
+  "type":"top-5-movies",
+  "components":[
+     {
+        "type":"order-select",
+        "items":[
+           {
+              "label":"Release Date",
+              "valueToOrderBy":"releaseDate"
+           },
+           {
+              "label":"Rank",
+              "valueToOrderBy":"rank"
+           }
+        ]
+     },
+     {
+        "type":"filters",
+        "items":[
+           {
+              "label":"Release Date",
+              "valueToFilter":[
+                 1981,
+                 1982,
+                 1984,
+                 1990,
+                 2013,
+                 2021
+              ]
+           },
+           {
+              "label":"Genres",
+              "valueToFilter":[
+                 "action",
+                 "comedy",
+                 "horror",
+                 "family"
+              ]
+           }
+        ]
+     },
+     {
+        "type":"movie-list",
+        "items":[
+           {
+              "id":2,
+              "type":"poster",
+              "rank":2,
+              "synopsis":"Epic tale in which an intrepid archaeologist tries to beat a band of Nazis to a unique religious relic which is central to their plans for world domination. Battling against a snake phobia and a vengeful ex-girlfriend, Indiana Jones is in constant peril, making hair's-breadth escapes at every turn in this celebration of the innocent adventure movies of an earlier era.",
+              "title":"Raiders of the Lost Ark",
+              "imageUrl":"https://m.media-amazon.com/images/M/MV5BNTU2ODkyY2MtMjU1NC00NjE1LWEzYjgtMWQ3MzRhMTE0NDc0XkEyXkFqcGdeQXVyMjM4MzQ4OTQ@._V1_FMjpg_UX1000_.jpg",
+              "releaseDate":1981,
+              "genres":"action"
+           },
+           {
+              "id":4,
+              "type":"poster",
+              "rank":1,
+              "synopsis":"Deckard (Harrison Ford) is forced by the police Boss (M. Emmet Walsh) to continue his old job as Replicant Hunter. His assignment: eliminate four escaped Replicants from the colonies who have returned to Earth. Before starting the job, Deckard goes to the Tyrell Corporation and he meets Rachel (Sean Young), a Replicant girl he falls in love with.",
+              "title":"Blade Runner",
+              "imageUrl":"https://m.media-amazon.com/images/M/MV5BNzQzMzJhZTEtOWM4NS00MTdhLTg0YjgtMjM4MDRkZjUwZDBlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+              "releaseDate":1982,
+              "genres":"action"
+           },
+           {
+              "id":3,
+              "type":"poster",
+              "rank":4,
+              "synopsis":"Disguised as a human, a cyborg assassin known as a Terminator (Arnold Schwarzenegger) travels from 2029 to 1984 to kill Sarah Connor (Linda Hamilton). Sent to protect Sarah is Kyle Reese (Michael Biehn), who divulges the coming of Skynet, an artificial intelligence system that will spark a nuclear holocaust. Sarah is targeted because Skynet knows that her unborn son will lead the fight against them. With the virtually unstoppable Terminator in hot pursuit, she and Kyle attempt to escape.",
+              "title":"The Terminator",
+              "imageUrl":"https://m.media-amazon.com/images/M/MV5BMjAyMTk3ODA2MF5BMl5BanBnXkFtZTcwMTkzNDQyNA@@._V1_.jpg",
+              "releaseDate":1984,
+              "genres":"action"
+           },
+           {
+              "id":5,
+              "type":"poster",
+              "rank":5,
+              "synopsis":"A gadget salesman is looking for a special gift for his son and finds one at a store in Chinatown. The shopkeeper is reluctant to sell him the `mogwai' but sells it to him with the warning to never expose him to bright light, water, or to feed him after midnight. All of this happens and the result is a gang of gremlins that decide to tear up the town on Christmas Eve.",
+              "title":"Gremlins",
+              "imageUrl":"https://m.media-amazon.com/images/M/MV5BZGE3MTA3OWQtYzVjYi00MjkwLThlZTQtNWUzOGVlYjEwMzBhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+              "releaseDate":1984,
+              "genres":"comedy"
+           },
+           {
+              "id":1,
+              "type":"poster",
+              "rank":3,
+              "synopsis":"Douglas Quaid (Arnold Schwarzenegger) is a bored construction worker in the year 2084 who dreams of visiting the colonized Mars. He visits  \"Rekall, \" a company that plants false memories into people's brains, in order to experience the thrill of Mars without having to travel there. But something goes wrong during the procedure; Quaid discovers that his entire life is actually a false memory and that the people who implanted it in his head now want him dead.",
+              "title":"Total Recall",
+              "imageUrl":"https://m.media-amazon.com/images/M/MV5BN2ZiMDMzYWItNDllZC00ZmRmLWI1YzktM2M5M2ZmZDg1OGNlXkEyXkFqcGdeQXVyNDQ2MTMzODA@._V1_.jpg",
+              "releaseDate":1990,
+              "genres":"action"
+           },
+           {
+              "id":8,
+              "type":"poster",
+              "rank":4,
+              "synopsis":"Directed by James Wan featuring Vera Farmiga, Patrick Wilson, Lili Taylor and Ron Livingston, the film revolves around Carolyn (Lili Taylor) and Roger Perron (Ron Livingston) who move into an island farm with their family and soon strange things happen to them, along with escalating nightmare terrors.",
+              "title":"The Conjuring",
+              "imageUrl":"https://m.media-amazon.com/images/M/MV5BMTM3NjA1NDMyMV5BMl5BanBnXkFtZTcwMDQzNDMzOQ@@._V1_FMjpg_UX1000_.jpg",
+              "releaseDate":2013,
+              "genres":"horror"
+           },
+           {
+              "id":6,
+              "type":"poster",
+              "rank":4,
+              "synopsis":"An affable underachiever finds out he's fathered 533 children through anonymous donations to a fertility clinic 20 years ago. Now he must decide whether or not to come forward when 142 of them file a lawsuit to reveal his identity.",
+              "title":"Delivery Man",
+              "imageUrl":"https://m.media-amazon.com/images/M/MV5BMjIxNjc2MzMzMl5BMl5BanBnXkFtZTgwMjA5NjM0MDE@._V1_FMjpg_UX1000_.jpg",
+              "releaseDate":2013,
+              "genres":"comedy"
+           },
+           {
+              "id":7,
+              "type":"poster",
+              "rank":2,
+              "synopsis":"A love letter to journalists set in an outpost of an American newspaper in a fictional twentieth century French city that brings to life a collection of stories published in 'The French Dispatch Magazine'..",
+              "title":"The french dispatch",
+              "imageUrl":"https://m.media-amazon.com/images/M/MV5BNmQxZTNiODYtNzBhYy00MzVlLWJlN2UtNTc4YWZjMDIwMmEzXkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg",
+              "releaseDate":2021,
+              "genres":"comedy"
+           }
+        ]
+     }
+  ]
+}

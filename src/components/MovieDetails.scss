@@ -1,0 +1,66 @@
+:root {
+  --border-color: #f1f1f1;
+}
+
+.movie-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.movie-list li {
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.movie-list li span {
+  display: block;
+  text-align: center;
+}
+
+$mainContainerColor: #737373;
+
+.mainContainer {
+  display: flex;
+  background-color: $mainContainerColor;
+  justify-content: space-between;
+  height: 40px;
+
+  .logo {
+    width: 120px;
+    height: 34px;
+    margin-top: 4px;
+    margin-left: 4px;
+  }
+
+  .searchBar {
+    margin-right: 40px;
+    margin-top: 4px;
+  }
+
+  .displayAllImage {
+    display: none;
+  }
+  .orderByReleaseDateContainer {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .orderByRankContainer {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+ 
+}
+
+.releaseDateimage {
+  width: 200px;
+  height: 200px;
+}
+
+.rankImage {
+  width: 200px;
+  height: 200px;
+}
